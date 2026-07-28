@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome</title>
+    <title>Show Cookie</title>
 </head>
 <body>
 
-<h2>Welcome Page</h2>
+<h2>Cookie Value</h2>
 
 <?php
 if (isset($_COOKIE["username"])) {
-    echo "Welcome, " . $_COOKIE["username"];
+    echo "Username: " . $_COOKIE["username"];
 } else {
     echo "Cookie Not Found!";
 }
